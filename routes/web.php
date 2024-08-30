@@ -99,5 +99,5 @@ Route::prefix('/fun')->name('fun.')->group(function() use($posts){
         return response()->download(public_path('/Screenshot from 2024-08-25 13-59-44.png'), 'screenshot');
     })->name('download');
 });
-///gggggggg
+
 
